@@ -82,39 +82,7 @@ Try the app: [AI Summarization Hub on Streamlit Cloud](https://ai-summarization-
 - pytube
 - Other dependencies listed in requirements.txt
 
-## Notes
-
-- For best results, provide clear, well-structured content
-- The quality of AI-generated content depends on the input quality
-
-## Deployment on Streamlit Cloud
-
-Follow these steps to deploy the app on Streamlit Cloud:
-
-1. **Fork or push this repository to GitHub**
-
-2. **Sign up for Streamlit Cloud**
-   - Go to [Streamlit Cloud](https://streamlit.io/cloud)
-   - Sign in with your GitHub account
-
-3. **Deploy the app**
-   - Click "New app"
-   - Select your repository, branch, and main file (app.py)
-   - Click "Deploy"
-
-4. **Add your secrets**
-   - In the app settings, find the "Secrets" section
-   - Add your Google API key in the following format:
-     ```
-     GOOGLE_API_KEY = "your-actual-api-key-here"
-     ```
-
-5. **Your app is now live!**
-   - Share the URL with others
-   - The app will automatically update when you push changes to your repository
-
 ## Security Notes
 
 - Never commit your actual API keys to GitHub
 - Always use environment variables or secrets management for API keys
-- The `.env` file and `.streamlit/secrets.toml` are included in `.gitignore` to prevent accidental exposure

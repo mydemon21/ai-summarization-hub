@@ -6,7 +6,7 @@ A comprehensive Streamlit application that uses Google's Gemini API to provide v
 
 ## Live Demo
 
-Try the app: [AI Summarization Hub on Streamlit Cloud](https://your-app-url-here.streamlit.app)
+Try the app: [AI Summarization Hub on Streamlit Cloud](https://ai-summarization-app-egqvssz2bmyywobt6aqq79.streamlit.app)
 
 ## Features
 
